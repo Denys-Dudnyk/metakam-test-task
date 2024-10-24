@@ -14,7 +14,7 @@ import { ImageSlider } from './Slider'
 import { Badge, Button, Flex, Strong } from '@radix-ui/themes'
 
 export default function ProductPage() {
-	const [selectedSize, setSelectedSize] = useState('M')
+	const [selectedSize, setSelectedSize] = useState('Brown')
 	const [quantity, setQuantity] = useState(1)
 
 	const sizes = ['Brown', 'Black', 'Yellow']
@@ -122,7 +122,7 @@ export default function ProductPage() {
 									flex: '1 1 0%',
 								}}
 							>
-								To cart
+								Add to cart
 							</Button>
 
 							<button className='w-12 h-12 flex items-center justify-center border border-gray-600 rounded-md hover:bg-gray-800 transition duration-200'>
